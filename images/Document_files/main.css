@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 15px #ddd;
+}
+
+#ping-pong {
+    width: 40rem;
+}
+
+h1 {
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 0;
+    box-shadow: 1px 1px 1px whitesmoke;
+}
+
+#score-count {
+    font-size: 2.5rem;
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#max-score-con {
+    padding: 1rem 0 1rem 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+#max-select {
+    padding: 8px;
+    border-radius: 85px;
+}
+
+button {
+    width: 33%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(223, 91, 91);
+    margin: 1px;
+}
+
+button:active {
+    transform: scale(98%);
+}
+
+#plus-one {
+    background-color: rgb(23, 199, 140);
+}
+
+#plus-two {
+    background-color: rgb(38, 107, 197);
+}
